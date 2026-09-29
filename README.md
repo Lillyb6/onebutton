@@ -1,7 +1,8 @@
 # OneButton
 
-A Flutter app with a download button and a list area for future downloadable items.
-Downloads are not connected yet; the button currently shows a coming-soon message.
+A Flutter app that fetches https://api.restful-api.dev/objects with GET when
+Download items is pressed and displays only the returned item names.
+Clear empties the list, including while a request is still pending.
 
 ## Run
 
